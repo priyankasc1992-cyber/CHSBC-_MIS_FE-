@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="login_mis.MIS_Login_Page_Functional_Testing"/>
+      <class name="dashboard_mis.Dashboard_MIS_UI_testing"/>
+      <class name="dashboard_mis.MIS_dashnboard_Page_Functional_Testing"/>
+      <class name="dashboard_mis.Conversation_Records_UI_Test_Cases"/>
+      <class name="login_mis.MIS_LoginPage_UI_Testing"/>
+      <class name="dashboard_mis.Conversation_Record_Func_TC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
